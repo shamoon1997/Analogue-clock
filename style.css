@@ -1,4 +1,5 @@
 #ClockContainer {
+    position: relative;
     background-image: url("clock.png");
     background-color: aqua;
     height: 80vh;
@@ -12,28 +13,29 @@
 #Second {
     position: absolute;
     background: black;
-    border-radius: 2px;
+    border-radius: 10px;
+    transform-origin: bottom;
 }
 
 #Hour {
-    height: 19%;
+    height: 29%;
     width: 1%;
     left: 49.5%;
     top: 22%;
-    display: none;
 }
 
 #Minute {
     height: 33%;
+    height: 41%;
     width: 1%;
     left: 49.5%;
     top: 9%;
-    display: none;
 }
 
 #Second {
     height: 33%;
+    height: 41%;
     width: 0.5%;
     left: 49.5%;
-    top: 9%;
+    top: 7%;
 }
